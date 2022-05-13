@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Nanum Brush Script', cursive, 'Courier New', Courier, monospace;
+}
+
+.btn{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 350;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #f00;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 4px;
+    margin-right: 4px;
+    
+}
