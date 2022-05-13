@@ -84,7 +84,7 @@ nav {
 
     
 }
-.ranking-area{
+.ranking-area,.meu-ranking-area{
     width: 310px;
     height: auto;
     display: flex;
@@ -108,7 +108,7 @@ nav {
     width: 100%;
 }
 
-.ranking-list{
+.ranking-list, .meu-ranking-conquistas{
     display: flex;
     width: 100%;
     margin-top: 40px;
@@ -116,7 +116,7 @@ nav {
 
 }
 
-.ranking-item{
+.ranking-item, .meu-ranking-conquista{
     display: flex;
     border: 1px solid #000;
     width: 100%;
@@ -124,13 +124,13 @@ nav {
     margin-bottom: 6px;
 }
 
-.item-avatar{
+.item-avatar, .meu-conquistas-img{
     height: 40px;
     width: 40px;
     border: 1px solid #000;
 }
 
-.item-avatar img{
+.item-avatar img, .meu-conquistas-img img{
     height: 40px;
     width: 40px;
     border: 1px solid #000;
